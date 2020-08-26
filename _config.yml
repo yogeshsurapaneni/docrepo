@@ -39,3 +39,5 @@ exclude:
   - package.json
   - package-lock.json
   - jekyll-rtd-theme.gemspec
+
+remote_theme: saowang/jekyll-rtd-theme
