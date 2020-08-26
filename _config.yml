@@ -4,9 +4,14 @@ description: Personal Document portal.
 
 theme: null
 
-nav_version: true
-edit: true
+nav_version: false
+edit: false
+logo: "assets/logo.png"
 addons_branch: true
+google:
+  gtag: "UA-173371863-1"
+rougify: github
+
 
 addons:
   - github
@@ -15,7 +20,7 @@ addons:
   - analytics
 
 copyright:
-  revision: true
+  revision: false
 
 readme_index:
   with_frontmatter: true
@@ -40,4 +45,4 @@ exclude:
   - package-lock.json
   - jekyll-rtd-theme.gemspec
 
-remote_theme: saowang/jekyll-rtd-theme
+remote_theme: rundocs/jekyll-rtd-theme
